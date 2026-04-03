@@ -1,0 +1,10 @@
+{
+    "python.languageServer": "Jedi",
+    "python.REPL.sendToNativeREPL": false,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.executeInFileDir": true,
+    "python.testing.pytestEnabled": true,
+    "python.useEnvironmentsExtension": true,
+    "python-envs.defaultEnvManager": "ms-python.python:poetry",
+    "python-envs.defaultPackageManager": "ms-python.python:poetry"
+}
