@@ -65,7 +65,7 @@ Scenario: User filters to show only completed items
 
 ## Advanced Features
 
-```
+```feature
 Feature: User registration
 
 Scenario: User registers with valid email
@@ -81,7 +81,7 @@ Scenario: User registers with invalid email
 ```
 
 
-```
+```feature
 Feature: Email verification
 
 Scenario: User verifies email
@@ -98,7 +98,7 @@ Scenario: Unverified user tries to add to-do
   Then the user should see a message “Verify your email first”
 ```
 
-```
+```feature
 Feature: Add a new to-do (verified users only)
 
 Scenario: Verified user adds a new to-do
